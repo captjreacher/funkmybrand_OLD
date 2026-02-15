@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "@/images/logo.png";
-import { Sparkles, Zap, FileText, Share2, Users, Shield } from "lucide-react";
+import { Sparkles, Zap, FileText, Share2, Users, Shield, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 declare global {
@@ -125,6 +125,20 @@ const ComingSoon = () => {
               <p className="mt-4 text-sm text-muted-foreground">
                 The waitlist opens in a MailerLite pop-up. Please make sure pop-up blockers are disabled for this site.
               </p>
+            </div>
+
+            <div className="mt-10 mx-auto max-w-3xl rounded-2xl border border-primary/30 bg-surface/50 p-6 text-left">
+              <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Pilot now live</p>
+              <h2 className="mt-2 font-heading text-2xl font-bold text-white">Rugby Player Profile CV Template</h2>
+              <p className="mt-3 text-muted-foreground">
+                Our pilot template is built for rugby professionals who want a high-impact profile that combines sporting credibility
+                with executive-ready CV storytelling.
+              </p>
+              <Button size="lg" className="mt-5" asChild>
+                <a href="https://app.funkmybrand.com" target="_blank" rel="noopener noreferrer">
+                  Open the Rugby Pilot App <ExternalLink className="ml-2 h-4 w-4" />
+                </a>
+              </Button>
             </div>
           </div>
         </div>
