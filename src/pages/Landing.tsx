@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, CheckCircle2, Sparkles, Users, Palette, ShieldCheck, Video, FileText } from "lucide-react";
+import { ArrowRight, CheckCircle2, Sparkles, Users, Palette, ShieldCheck, Video, FileText, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import logo from "@/images/logo.png";
 
@@ -136,6 +136,19 @@ const Landing = () => {
                   <p className="leading-relaxed text-muted-foreground">{item}</p>
                 </div>
               ))}
+            </div>
+            <div className="mt-8 rounded-2xl border border-border bg-background/80 p-5">
+              <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Pilot launch</p>
+              <h3 className="mt-2 font-heading text-xl">Rugby Player Profile CV Template</h3>
+              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                Explore our first pilot experience: a rugby-inspired player profile template that blends athletic storytelling with
+                executive CV structure for sponsors, recruiters, and leadership roles.
+              </p>
+              <Button size="sm" className="mt-4" asChild>
+                <a href="https://app.funkmybrand.com" target="_blank" rel="noopener noreferrer">
+                  View pilot app <ExternalLink className="ml-2 h-4 w-4" />
+                </a>
+              </Button>
             </div>
             <div className="mt-10 rounded-2xl border border-dashed border-primary/40 bg-primary/5 p-5 text-sm text-muted-foreground">
               Invite-only beta is rolling out. Claim your spot and we’ll notify you as soon as your studio is ready.
