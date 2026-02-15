@@ -131,8 +131,8 @@ const ComingSoon = () => {
               <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Pilot now live</p>
               <h2 className="mt-2 font-heading text-2xl font-bold text-white">Rugby Player Profile CV Template</h2>
               <p className="mt-3 text-muted-foreground">
-                Our pilot template is built for rugby professionals who want a high-impact profile that combines sporting credibility
-                with executive-ready CV storytelling.
+                Our pilot template is for anyone who wants to represent themselves in this unique way, combining bold personal
+                storytelling with executive-ready CV structure.
               </p>
               <Button size="lg" className="mt-5" asChild>
                 <a href="https://app.funkmybrand.com" target="_blank" rel="noopener noreferrer">

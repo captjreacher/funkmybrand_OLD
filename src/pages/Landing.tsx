@@ -141,8 +141,8 @@ const Landing = () => {
               <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Pilot launch</p>
               <h3 className="mt-2 font-heading text-xl">Rugby Player Profile CV Template</h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                Explore our first pilot experience: a rugby-inspired player profile template that blends athletic storytelling with
-                executive CV structure for sponsors, recruiters, and leadership roles.
+                Explore our first pilot experience: a rugby-inspired player profile template for anyone who wants to showcase
+                their story in this unique format with executive-ready CV structure.
               </p>
               <Button size="sm" className="mt-4" asChild>
                 <a href="https://app.funkmybrand.com" target="_blank" rel="noopener noreferrer">
